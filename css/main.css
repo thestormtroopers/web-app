@@ -6,20 +6,22 @@ CSS boilerplate
 @viewport { width: device-width; scale: 1; }
 
 html {
-box-sizing: border-box;
+  text-decoration: none;
 
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
-font-family: sans-serif;
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *:before, *:after {
 box-sizing: inherit;
 }
 
-video#bgvid { 
+video#bgvid {
     position: fixed;
     top: 50%;
     left: 50%;

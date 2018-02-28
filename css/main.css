@@ -6,7 +6,6 @@ CSS boilerplate
 @viewport { width: device-width; scale: 1; }
 
 html {
-  text-decoration: none;
 
   box-sizing: border-box;
 
@@ -19,6 +18,19 @@ html {
 
 *, *:before, *:after {
 box-sizing: inherit;
+}
+
+.current {
+  color: orange;
+}
+
+.day {
+
+}
+
+.nav li {
+
+  text-decoration: none;
 }
 
 video#bgvid {

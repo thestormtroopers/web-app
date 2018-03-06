@@ -20,19 +20,6 @@ html {
 box-sizing: inherit;
 }
 
-.current {
-  color: orange;
-}
-
-.day {
-
-}
-
-.nav li {
-
-  text-decoration: none;
-}
-
 video#bgvid {
     position: fixed;
     top: 50%;

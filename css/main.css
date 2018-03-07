@@ -1,50 +1,17 @@
-CSS boilerplate
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: sans-serif;
+header img {
+  position: fixed;
+  margin: 10px;
+  height: 5rem;
+  z-index: 1;
 }
 
-*, *:before, *:after {
-box-sizing: inherit;
-}
-
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(http://science-all.com/images/landscape/landscape-04.jpg) no-repeat;
-    background-size: cover;
-}
-video#bgvid {
-    transition: 1s opacity;
-}
-.stopfade { opacity: .5; }
-@media screen and (max-device-width: 800px) {
-    html {
-         background: url(http://science-all.com/images/landscape/landscape-04.jpg) #000 no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
-    }
-}
+.background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);

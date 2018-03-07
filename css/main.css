@@ -3,6 +3,24 @@ html {
   background-color: blue;
 }
 
+header img {
+  position: fixed;
+  margin: 10px;
+  height: 5rem;
+  z-index: 1;
+}
+
+.background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+
 .weather-card {
   margin: 0;
   display: inline-block;

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href="icons/iconography/app-icon.png">
 <head>
   <meta charset="utf-8">
   <title>Web app</title>
@@ -10,11 +12,24 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <a href="index.html">
+      <img src="icons/app-header.png">
+    </a>
+    <video loop muted autoplay class="background-video">
+      <source src="video/sunny-clouds.mp4" type="video/mp4">
+    </video>
+    <nav class="nav nav-top">
+      <ul>
+        <li class="island selected current"><a href="index.html">Current</a></li>
+        <li class="island day"><a href="7day.html">7 Day</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <h1>Weather Card</h1>
 
   <section class="weather-display grid island-1-4">
-
     <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
       <div class="weather-card grid">
         <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">SUN</h4>

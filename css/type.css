@@ -876,6 +876,8 @@ legend {
   }
 
   .micro {
+    font-size: .5rem;
+    line-height: 1rem;
     font-size: .7901rem;
     line-height: 1.5rem;
   }

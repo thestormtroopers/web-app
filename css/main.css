@@ -36,6 +36,11 @@ video#bgvid {
     transition: 1s opacity;
 }
 .stopfade { opacity: .5; }
+
+section {
+  background-color: rgba(0,0,0,.33);
+}
+
 @media screen and (max-device-width: 800px) {
     html {
          background: url(http://science-all.com/images/landscape/landscape-04.jpg) #000 no-repeat center center fixed;
@@ -43,12 +48,11 @@ video#bgvid {
     #bgvid {
         display: none;
     }
-  
+
   background-color: blue;
 }
 
 header img {
-  position: fixed;
   margin: 10px;
   height: 5rem;
   z-index: 1;
@@ -121,6 +125,12 @@ header img {
   }
 }
 
+header img {
+  margin: 10px;
+  height: 5rem;
+  z-index: 1;
+}
+
 @media only screen and (min-width: 60em) {
 
   .temperature {
@@ -132,10 +142,21 @@ header img {
   .time {
     text-align: center;
   }
+}
 
+header img {
+  margin: 10px;
+  height: 5rem;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 90em) {
+
+  header img {
+    margin: 10px;
+    height: 5rem;
+    z-index: 1;
+  }
 
   .temperature {
     font-size: 40pt;

@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Web app</title>
+  <link rel="shortcut icon" href="icons/iconography/app-icon.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -11,19 +12,29 @@
 </head>
 <body>
   <header>
+    <a href="index.html">
+      <img src="icons/app-header.png">
+    </a>
+
+    <video loop muted autoplay class="background-video">
+      <source src="video/sunny-clouds.mp4" type="video/mp4">
+    </video>
+
+    <br>
+
     <nav class="nav nav-top">
       <ul class="grid">
-        <li class="island unit selected"><a href="index.html">Current</a></li>
+        <li class="island unit"><a href="index.html">Hourly</a></li>
         <li class="island unit"><a href="7day.html">7 Day</a></li>
       </ul>
     </nav>
   </header>
-  
+
   <main>
     <section class="weather-display grid island-1-4">
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="1.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">SUN</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">7am</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -45,7 +56,7 @@
 
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="2.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">MON</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">9am</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -67,7 +78,7 @@
 
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="3.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">TUE</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">11am</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -89,7 +100,7 @@
 
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="4.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">WED</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">1pm</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -111,7 +122,7 @@
 
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="5.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">THU</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">3pm</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -133,7 +144,7 @@
 
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="6.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">FRI</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">5pm</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -155,7 +166,7 @@
 
       <div class="card-spacing unit xs-1 s-1 m-1 l-1-7">
         <a href="7.html"><div class="weather-card grid">
-          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">SAT</h4>
+          <h4 class="time unit xs-1-4 s-1-4 m-1-4 l-1 push-0">7pm</h4>
           <div class="card-info unit xs-3-4 s-3-4 m-3-4 l-1">
             <div class="grid">
               <i class="icon i-96">
@@ -177,5 +188,6 @@
 
     </section>
   </main>
+
 </body>
 </html>

@@ -24,7 +24,6 @@ _site
 
 # Video & audio
 *.mov
-*.mp4
 *.m4v
 *.f4v
 *.f4p
